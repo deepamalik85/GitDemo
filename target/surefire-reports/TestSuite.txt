@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 39.328 s <<< FAILURE! - in TestSuite
+base.Validation.validate  Time elapsed: 0.83 s  <<< FAILURE!
+java.lang.NullPointerException
+	at base.Validation.validate(Validation.java:33)
+
+base.Validation.validateBanner  Time elapsed: 0.721 s  <<< FAILURE!
+java.lang.NullPointerException
+	at base.Validation.validateBanner(Validation.java:45)
+
+base.HomePage.basePageNavigation  Time elapsed: 12.021 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='user_email']"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DHJLKDTK', ip: '192.168.18.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\deepa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 82f91d58a99cba597ae5dc06d32e6568
+*** Element info: {Using=xpath, value=//input[@id='user_email']}
+	at base.HomePage.basePageNavigation(HomePage.java:36)
+

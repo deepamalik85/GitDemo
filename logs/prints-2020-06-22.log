@@ -1,0 +1,7 @@
+20:15:37.821 [TestNG-tests-2] INFO  base.HomePage - Driver is initialized
+20:15:40.172 [TestNG-tests-2] INFO  base.HomePage - Navigated to Home Page
+20:15:44.769 [TestNG-tests-2] INFO  base.HomePage - User validation done
+21:22:42.442 [TestNG-tests-2] INFO  base.HomePage - Driver is initialized
+21:22:42.443 [TestNG-tests-1] INFO  base.HomePage - Driver is initialized
+21:22:45.880 [TestNG-tests-1] INFO  base.HomePage - Navigated to Home Page
+21:22:46.403 [TestNG-tests-2] INFO  base.HomePage - Navigated to Home Page

@@ -1,0 +1,7 @@
+19:42:59.293 [main] INFO  base.HomePage - Navigated to Home Page
+19:42:59.457 [main] INFO  base.HomePage - Successfully validated text message
+19:42:59.512 [main] INFO  base.HomePage - Navigation bar is displayed
+19:42:59.546 [main] INFO  base.HomePage - Successfully validated banner text
+19:43:17.139 [main] INFO  base.HomePage - Driver is initialized
+19:43:19.430 [main] INFO  base.HomePage - Navigated to Home Page
+19:43:19.725 [main] INFO  base.HomePage - Successfully validated text message
