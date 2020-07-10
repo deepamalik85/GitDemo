@@ -52,17 +52,6 @@ public class StepDefinationOne extends Base {
 
 	}
 
-	/*
-	 * @When("^User login into application with wrong username and password$")
-	 * public void user_login_into_application_with_wrong_username_and_password() {
-	 * 
-	 * driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); LandingPage
-	 * landobj = new LandingPage(driver); LoginPage logobj = landobj.getLogin();
-	 * logobj.getEmail().sendKeys("deepamalik85");
-	 * logobj.getPassword().sendKeys("12345"); logobj.getLogin().click();
-	 * 
-	 * }
-	 */
 
 	@Then("^Invalid email or password is displayed$")
 	public void invalid_email_or_password_is_displayed() {
